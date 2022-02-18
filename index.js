@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const port = 9009;
+const port = process.env.PORT || 9009;
 const url = "mongodb://localhost/election";
 const url_online =
   "mongodb+srv://AuthClass:AuthClass@codelab.u4drr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
