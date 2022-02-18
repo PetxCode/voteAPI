@@ -8,7 +8,7 @@ const url_online =
 
 const app = express();
 
-mongoose.connect(url).then(() => {
+mongoose.connect(url_online).then(() => {
   console.log("database connected");
 });
 
